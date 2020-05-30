@@ -27,4 +27,7 @@ ddd=util.data
 citedby=[x[0] for x in ddd]
 hindex=[x[1] for x in ddd]
 i10index=[x[2] for x in ddd]
-print("Number of people {}, Average citedby {}, Average h-index {}, Average i10-index {} ".format(len(util.data),sum(citedby)/len(citedby),sum(hindex)/len(hindex),sum(i10index)/len(i10index)))
+if(len(citedby)>0):
+    print("Number of people {}, Average citedby {}, Average h-index {}, Average i10-index {} ".format(len(util.data),sum(citedby)/len(citedby),sum(hindex)/len(hindex),sum(i10index)/len(i10index)))
+else:
+    print("No researcher found")
