@@ -21,3 +21,6 @@ python getData.py -a "<author names seperated by spaces>"
 
 ## Requirements:
 Run ```pip install -r requirements.txt``` to install all dependencies.
+
+## Example Result:
+*Image here*
