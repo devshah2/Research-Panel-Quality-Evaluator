@@ -12,11 +12,11 @@ python getData.py -l <link to website>
 ```
 Use this in order to get results based on author names:
 ```
-python getData.py --author "<author names seperated by spaces>"
+python getData.py --author "<author names seperated by commas>"
 ```
 or 
 ```
-python getData.py -a "<author names seperated by spaces>"
+python getData.py -a "<author names seperated by commas>"
 ```
 
 ## Requirements:
