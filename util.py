@@ -165,10 +165,7 @@ def runXXX(author):
         data.append([author.citedby,author.i10index,author.hindex,author.name])
     except Exception as e:
         pass
-    # data.append(authorStr)
 
-# names=["Umesh Bellur", "Vojtech Horky","Nima Anari","Simon Spinner","Samuel Kounev","Nikolas Herbst","André Bauer","Alexandru Iosup", "Stanford"]
-# names=["Stanford"]
 def run(names):
     threads=[]
     counter=0
@@ -191,14 +188,3 @@ def run(names):
         # print(id)
         threads[id].join()
 init=time.time()
-
-# thread1=runXXX("Umesh Bellur")
-# runXXX("Dev Bellur")
-# runXXX("Dev Bellur")
-# runXXX("Dev Britto")
-# dataaa=["Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto","Umesh Bellur","Dev Bellur","Dev Bellur","Dev Britto"]
-# dataaa=['Aldeida','Aldeida Aleti, Monash University, Australia']
-# print(len(dataaa))
-# run(dataaa)
-# print(data)
-# print(time.time()-init)
