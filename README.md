@@ -1,5 +1,6 @@
 # Research-Panel-Project
-Python program that finds average h-index, number of citations, i-10 index. 
+Web scraping tool that gains intellegent information about the quality of a given research panel.
+Finds average h-index, number of citations, and i-10 index of each judge of the panel to make further evaluations. 
 
 ## Usage:
 Use this in order to scrape website for data:
