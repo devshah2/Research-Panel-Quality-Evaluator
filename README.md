@@ -1,5 +1,5 @@
 # Research-Panel-Project
-Web scraping tool that gains intellegent information about the quality of a given research panel.
+Web scraping tool that provides actionable intelligence about the quality of a given research panel and the experience of its judges.
 Finds average h-index, number of citations, and i-10 index of each judge of the panel to make further evaluations. 
 
 ## Usage:
