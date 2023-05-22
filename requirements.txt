@@ -1,4 +1,4 @@
-requests==2.22.0
+requests==2.31.0
 regex==2019.8.19
 beautifulsoup4==4.7.1
 progress==1.5
